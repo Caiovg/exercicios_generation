@@ -1,4 +1,4 @@
-# Exercícios da Generation do Portugal-Studio
+# Exercícios da Generation do Portugol-Studio
 
 Lista de exercícios passados pela generation de logica de programação para iniciantes.
 * [Link para os exercicios #06 - Introdução aos Algoritmos](https://drive.google.com/file/d/10k0zEBmqHJyIHKRKCSFmC7bmHnUQFQ96/view?usp=sharing)
