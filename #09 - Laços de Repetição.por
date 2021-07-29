@@ -22,11 +22,11 @@ programa
   		real salario, maior_salario = 0.0, porcentual
 
 
-		para(inteiro i=0; i <= 19; i++){
-			escreva("\nHabitante ", i + 1, " digite o número de filhos: ")
+		para(inteiro i=1; i <= 4; i++){
+			escreva("\nHabitante ", i, " digite o número de filhos: ")
 			leia(filhos)
 			
-			escreva("\nHabitante ", i + 1, " digite o salario: ")
+			escreva("\nHabitante ", i, " digite o salario: ")
 			leia(salario)
 
 			se(salario > maior_salario) maior_salario = salario
@@ -40,10 +40,10 @@ programa
 			cont_Pessoa++
 		}
 
-		escreva("A media do salario da população e: ", total_salario/cont_Pessoa)
+		escreva("A media do salario da população e: R$", total_salario/cont_Pessoa)
 		escreva("\nA media do salario da população e: ", total_filhos/cont_Pessoa)
 		escreva("\nO maior salario e: ", maior_salario)
-		escreva("\nO percentual de pessoas com salário até R$100,00 e de : ", pessoas_salarios_ate_100 * 5, "%")
+		escreva("\nO percentual de pessoas com salário até R$100,00 e de : ", pessoas_salarios_ate_100 * 100 / cont_Pessoa, "%")
 		escreva("\n", cont_Pessoa)*/
 					
 		/*
@@ -52,9 +52,9 @@ programa
 		*/
 		//Respostas
 		/*inteiro soma = 0
-		para(inteiro n = 0; n <= 500; n++){
+		para(inteiro n = 1; n <= 500; n++){
 			se (n % 2 != 0 e n % 3 == 0){
-				soma = soma + n
+				soma += n
 			}
 		}
 		escreva("A soma de todos os números ímpares que são múltiplos de três são ",soma)
@@ -129,8 +129,8 @@ programa
 			1+2+3+4+5+6+7=28.
 		*/
 		//Resposta
-		/*
-		inteiro num, soma = 0
+		
+		/*inteiro num, soma = 0
 		escreva("Digite um numero: ")
 		leia(num)
 		faca{
@@ -143,9 +143,9 @@ programa
 			// :( não lembro de como faço invertido
 			soma = soma + num
 			num = num - 1
-		}enquanto(num>=1)
-		escreva(" = ", soma)
-		*/
+		}enquanto(1<=num)
+		escreva(" = ", soma)*/
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -153,7 +153,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1893; 
+ * @POSICAO-CURSOR = 3565; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
