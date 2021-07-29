@@ -6,4 +6,8 @@ Lista de exercícios passados pela generation de logica de programação para in
 * [Link para os exercicios #09 - Laços de Repetição](https://drive.google.com/file/d/1ONrdsbID-RDr9Dk1Oq4R9uE3kY-G9qbu/view?usp=sharing)
 * [Link para os exercicios #10 - Vetores e Matrizes](https://drive.google.com/file/d/1bDR0c2TGyZHUIu7FnL1scRnV0ytKp8yE/view?usp=sharing)
 
+## 🧪 Tecnologias
 
+Este projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+- [PORTUGOL STUDIO] (http://lite.acad.univali.br/portugol/)
